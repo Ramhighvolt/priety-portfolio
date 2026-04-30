@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <div className="border-t border-white/10 bg-zinc-950/70 px-6 py-2 text-center">
           <p className="text-[10px] uppercase tracking-[0.28em] text-amber-400/90 sm:text-xs">
-            Powered by Aliens Tattoo School Discipline • Premium Studio Standards
+            "Ink is memory made visible."
           </p>
         </div>
       </nav>
@@ -198,10 +198,10 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 bg-black/70" />
         <p className="pointer-events-none absolute left-1/2 top-12 hidden -translate-x-1/2 text-center display-font text-6xl tracking-[0.25em] text-white/10 lg:block">
-          ALIENS STANDARDS
+          INK WITH INTENT
         </p>
         <p className="pointer-events-none absolute left-1/2 top-28 hidden -translate-x-1/2 text-[10px] uppercase tracking-[0.45em] text-amber-400/40 lg:block">
-          Aliens-inspired premium workflow
+          Every line should mean something
         </p>
         <div className="orb-float absolute left-1/3 top-10 h-28 w-28 rounded-full bg-amber-400/15 blur-3xl" />
         <p className="pointer-events-none absolute right-5 top-14 hidden text-[10px] uppercase tracking-[0.65em] text-zinc-500 md:block">
@@ -224,7 +224,7 @@ export default function Home() {
 
           <div className="mt-16 text-center sm:mt-20">
             <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-              Aliens-level quality benchmark
+              "Designed for now. Worn for life."
             </p>
             <p className="text-[11px] uppercase tracking-[0.45em] text-amber-400">
               Curated Tattoo Portfolio
@@ -340,7 +340,7 @@ export default function Home() {
           className="relative mx-auto max-w-6xl text-center"
         >
           <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-            Aliens-influenced style precision
+            "Style is discipline in visual form."
           </p>
           <p className="text-[11px] uppercase tracking-[0.45em] text-amber-400">
             Precision Categories
@@ -398,7 +398,7 @@ export default function Home() {
           className="relative mx-auto max-w-6xl text-center"
         >
           <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-            Aliens-standard hygiene protocol
+            "Clean process. Sharp craft."
           </p>
           <p className="text-[11px] uppercase tracking-[0.45em] text-amber-400">
             Professional Services
@@ -457,7 +457,7 @@ export default function Home() {
           className="mx-auto max-w-5xl"
         >
           <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-            Built through the Aliens ecosystem
+            "Consistency builds legacy."
           </p>
           <p className="text-center text-[11px] uppercase tracking-[0.45em] text-amber-400">
             Career Timeline
@@ -508,7 +508,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-[0.06] bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.14)_0px,rgba(255,255,255,0.14)_1px,transparent_1px,transparent_24px)]" />
         <div className="orb-float-delay absolute left-1/2 top-10 h-32 w-32 -translate-x-1/2 rounded-full bg-amber-400/12 blur-3xl" />
         <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-          Aliens Tattoo School credentials
+          "Training shapes confidence."
         </p>
         <p className="text-[11px] uppercase tracking-[0.45em] text-amber-400">
           Certified Training
@@ -562,7 +562,7 @@ export default function Home() {
           className="relative mx-auto max-w-4xl"
         >
           <p className="mx-auto mb-4 inline-flex rounded-full border border-amber-400/35 bg-amber-400/10 px-4 py-1 text-[10px] uppercase tracking-[0.22em] text-amber-300">
-            Book with Aliens-standard artist training
+            "Your story deserves precision."
           </p>
           <p className="text-[11px] uppercase tracking-[0.45em] text-amber-400">
             Bookings Open
