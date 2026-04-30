@@ -28,21 +28,21 @@ export default function Home() {
 
   return (
     <main className="grain-overlay relative min-h-screen overflow-hidden bg-black text-white">
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_10%_8%,rgba(245,158,11,0.14),transparent_32%),radial-gradient(circle_at_90%_14%,rgba(255,255,255,0.06),transparent_28%),radial-gradient(circle_at_18%_68%,rgba(255,255,255,0.04),transparent_24%),radial-gradient(circle_at_84%_78%,rgba(245,158,11,0.12),transparent_30%),linear-gradient(to_bottom,#030303_0%,#070707_35%,#030303_100%)]" />
-      <div className="pointer-events-none absolute inset-0 -z-10 opacity-[0.14] bg-[linear-gradient(120deg,transparent_0%,rgba(245,158,11,0.12)_20%,transparent_42%,rgba(255,255,255,0.09)_62%,transparent_85%)]" />
-      <div className="pointer-events-none absolute inset-0 -z-10 opacity-[0.08] bg-[repeating-linear-gradient(-30deg,rgba(255,255,255,0.18)_0px,rgba(255,255,255,0.18)_1px,transparent_1px,transparent_18px)]" />
-      <div className="pointer-events-none absolute inset-0 -z-10 opacity-[0.06] bg-[repeating-radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.25)_0px,rgba(255,255,255,0.25)_1px,transparent_1px,transparent_22px)]" />
-      <div className="pointer-events-none absolute left-0 right-0 top-[18%] -z-10 h-40 bg-[linear-gradient(180deg,transparent,rgba(245,158,11,0.08),transparent)] blur-2xl" />
-      <div className="pointer-events-none absolute left-0 right-0 top-[52%] -z-10 h-48 bg-[linear-gradient(180deg,transparent,rgba(255,255,255,0.06),transparent)] blur-2xl" />
-      <div className="pointer-events-none absolute left-0 right-0 bottom-[10%] -z-10 h-40 bg-[linear-gradient(180deg,transparent,rgba(245,158,11,0.08),transparent)] blur-2xl" />
-      <div className="pointer-events-none fixed left-2 top-1/2 z-30 hidden -translate-y-1/2 lg:block">
+      <div className="fx-heavy pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_10%_8%,rgba(245,158,11,0.14),transparent_32%),radial-gradient(circle_at_90%_14%,rgba(255,255,255,0.06),transparent_28%),radial-gradient(circle_at_18%_68%,rgba(255,255,255,0.04),transparent_24%),radial-gradient(circle_at_84%_78%,rgba(245,158,11,0.12),transparent_30%),linear-gradient(to_bottom,#030303_0%,#070707_35%,#030303_100%)]" />
+      <div className="fx-heavy pointer-events-none absolute inset-0 -z-10 opacity-[0.14] bg-[linear-gradient(120deg,transparent_0%,rgba(245,158,11,0.12)_20%,transparent_42%,rgba(255,255,255,0.09)_62%,transparent_85%)]" />
+      <div className="fx-heavy pointer-events-none absolute inset-0 -z-10 opacity-[0.08] bg-[repeating-linear-gradient(-30deg,rgba(255,255,255,0.18)_0px,rgba(255,255,255,0.18)_1px,transparent_1px,transparent_18px)]" />
+      <div className="fx-heavy pointer-events-none absolute inset-0 -z-10 opacity-[0.06] bg-[repeating-radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.25)_0px,rgba(255,255,255,0.25)_1px,transparent_1px,transparent_22px)]" />
+      <div className="fx-heavy pointer-events-none absolute left-0 right-0 top-[18%] -z-10 h-40 bg-[linear-gradient(180deg,transparent,rgba(245,158,11,0.08),transparent)] blur-2xl" />
+      <div className="fx-heavy pointer-events-none absolute left-0 right-0 top-[52%] -z-10 h-48 bg-[linear-gradient(180deg,transparent,rgba(255,255,255,0.06),transparent)] blur-2xl" />
+      <div className="fx-heavy pointer-events-none absolute left-0 right-0 bottom-[10%] -z-10 h-40 bg-[linear-gradient(180deg,transparent,rgba(245,158,11,0.08),transparent)] blur-2xl" />
+      <div className="fx-heavy pointer-events-none fixed left-2 top-1/2 z-30 hidden -translate-y-1/2 lg:block">
         <p className="rounded-full border border-white/15 bg-black/60 px-2 py-4 text-[9px] uppercase tracking-[0.32em] text-amber-400/70 [writing-mode:vertical-rl]">
-          ALIENS • PREMIUM • HYGIENE • ALIENS • PREMIUM • HYGIENE
+          CARE • HEAL • HYDRATE • CARE • HEAL • HYDRATE
         </p>
       </div>
-      <div className="pointer-events-none fixed right-2 top-1/2 z-30 hidden -translate-y-1/2 lg:block">
+      <div className="fx-heavy pointer-events-none fixed right-2 top-1/2 z-30 hidden -translate-y-1/2 lg:block">
         <p className="rounded-full border border-white/15 bg-black/60 px-2 py-4 text-[9px] uppercase tracking-[0.32em] text-amber-400/70 [writing-mode:vertical-rl]">
-          ALIENS • PREMIUM • HYGIENE • ALIENS • PREMIUM • HYGIENE
+          AFTERCARE • CLEAN • PROTECT • AFTERCARE • CLEAN • PROTECT
         </p>
       </div>
       <nav className="fixed left-0 top-0 z-40 w-full border-b border-white/10 bg-black/70 backdrop-blur-xl">
@@ -68,14 +68,14 @@ export default function Home() {
 
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pb-16 pt-32 text-center">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(245,158,11,0.24),transparent_35%),radial-gradient(circle_at_85%_15%,rgba(255,255,255,0.08),transparent_28%),linear-gradient(to_bottom,#050505,#000000)]" />
-        <div className="absolute inset-0 opacity-[0.12] bg-[repeating-linear-gradient(-35deg,rgba(255,255,255,0.16)_0px,rgba(255,255,255,0.16)_1px,transparent_1px,transparent_16px)]" />
-        <div className="absolute inset-0 opacity-[0.18] bg-[radial-gradient(circle_at_80%_80%,rgba(245,158,11,0.2),transparent_30%)]" />
-        <div className="absolute inset-0 opacity-[0.08] bg-[linear-gradient(140deg,rgba(255,255,255,0.08)_0%,transparent_35%,rgba(245,158,11,0.15)_65%,transparent_100%)]" />
-        <div className="orb-float absolute -left-16 top-28 h-44 w-44 rounded-full bg-amber-400/20 blur-3xl" />
-        <div className="orb-float-delay absolute -right-16 bottom-20 h-56 w-56 rounded-full bg-zinc-200/10 blur-3xl" />
-        <span className="sparkle-dot absolute left-1/4 top-28 h-1.5 w-1.5 rounded-full bg-amber-400/75" />
-        <span className="sparkle-dot absolute right-1/4 top-44 h-1 w-1 rounded-full bg-white/80 [animation-delay:0.9s]" />
-        <span className="sparkle-dot absolute bottom-24 left-[30%] h-1 w-1 rounded-full bg-white/70 [animation-delay:1.7s]" />
+        <div className="fx-heavy absolute inset-0 opacity-[0.12] bg-[repeating-linear-gradient(-35deg,rgba(255,255,255,0.16)_0px,rgba(255,255,255,0.16)_1px,transparent_1px,transparent_16px)]" />
+        <div className="fx-heavy absolute inset-0 opacity-[0.18] bg-[radial-gradient(circle_at_80%_80%,rgba(245,158,11,0.2),transparent_30%)]" />
+        <div className="fx-heavy absolute inset-0 opacity-[0.08] bg-[linear-gradient(140deg,rgba(255,255,255,0.08)_0%,transparent_35%,rgba(245,158,11,0.15)_65%,transparent_100%)]" />
+        <div className="fx-heavy orb-float absolute -left-16 top-28 h-44 w-44 rounded-full bg-amber-400/20 blur-3xl" />
+        <div className="fx-heavy orb-float-delay absolute -right-16 bottom-20 h-56 w-56 rounded-full bg-zinc-200/10 blur-3xl" />
+        <span className="fx-heavy sparkle-dot absolute left-1/4 top-28 h-1.5 w-1.5 rounded-full bg-amber-400/75" />
+        <span className="fx-heavy sparkle-dot absolute right-1/4 top-44 h-1 w-1 rounded-full bg-white/80 [animation-delay:0.9s]" />
+        <span className="fx-heavy sparkle-dot absolute bottom-24 left-[30%] h-1 w-1 rounded-full bg-white/70 [animation-delay:1.7s]" />
 
         <p className="pointer-events-none absolute left-4 top-1/2 hidden -translate-y-1/2 -rotate-180 text-[10px] uppercase tracking-[0.65em] text-zinc-500 [writing-mode:vertical-rl] lg:block">
           CUSTOM INK
@@ -122,7 +122,7 @@ export default function Home() {
             studio-grade hygiene, and modern style direction for every placement.
           </p>
           <p className="mx-auto mt-3 max-w-3xl text-xs uppercase tracking-[0.18em] text-amber-400/90 sm:text-sm">
-            Trained in Aliens Tattoo School standards and currently working inside the Aliens ecosystem.
+            Heal clean. Moisturize light. Protect from sun for long-lasting sharp results.
           </p>
           <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
             <span className="funk-chip rounded-full px-4 py-1 text-[10px] uppercase tracking-[0.2em] text-amber-300">
@@ -174,7 +174,7 @@ export default function Home() {
       <section id="portfolio" className="relative overflow-hidden px-6 py-24 sm:py-28">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_15%,rgba(245,158,11,0.14),transparent_40%)]" />
         <div className="absolute inset-0 opacity-[0.09] bg-[linear-gradient(180deg,transparent_0%,rgba(255,255,255,0.06)_46%,transparent_100%)]" />
-        <div className="absolute inset-0 opacity-30">
+        <div className="fx-heavy absolute inset-0 opacity-30">
           <img
             src="/gallery/realism-portrait-3.jpg"
             alt=""
@@ -468,7 +468,7 @@ export default function Home() {
 
           <div className="mt-12 space-y-6">
             {[
-              ["Aliens Tattoo Art School", "Current Role at Aliens: Tattoo Artist / Instructor · 2025 – Present"],
+              ["Aliens Tattoo Art School", "Current Studio: Tattoo Artist / Instructor · 2025 – Present"],
               ["Patna Ink", "Senior Tattoo Artist · 2023 – 2025"],
               ["Wildink Tattoo Studio", "Tattoo Artist · 2020 – 2023"],
               ["Tattoos 1960", "Tattoo Artist · 2018 – 2020"],
@@ -486,11 +486,10 @@ export default function Home() {
                 {place === "Aliens Tattoo Art School" && (
                   <>
                     <p className="luxe-wiggle mt-2 inline-block rounded-full border border-amber-400/50 bg-amber-400/10 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-amber-400">
-                      Premium Studio Appointment
+                      Current Studio Role
                     </p>
                     <p className="mt-2 text-xs leading-6 text-zinc-300">
-                      Working under high hygiene, consultation, and execution standards associated
-                      with Aliens’ premium studio system.
+                      Built on strong hygiene, consultation, and clean execution standards.
                     </p>
                   </>
                 )}

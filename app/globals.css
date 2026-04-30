@@ -157,3 +157,40 @@ body {
 .luxe-wiggle {
   animation: luxe-wiggle 3.4s ease-in-out infinite;
 }
+
+@media (max-width: 900px) {
+  .fx-heavy {
+    display: none !important;
+  }
+
+  .grain-overlay::after {
+    opacity: 0.04;
+  }
+
+  .orb-float,
+  .orb-float-delay,
+  .sparkle-dot,
+  .glow-btn,
+  .funk-chip,
+  .luxe-wiggle,
+  .shine-heading {
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fx-heavy {
+    display: none !important;
+  }
+
+  .marquee,
+  .orb-float,
+  .orb-float-delay,
+  .sparkle-dot,
+  .glow-btn,
+  .funk-chip,
+  .luxe-wiggle,
+  .shine-heading {
+    animation: none !important;
+  }
+}
