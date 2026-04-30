@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.display-font {
+  font-family: "Bebas Neue", sans-serif;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  animation: marquee 18s linear infinite;
+}
+
+@keyframes float-orb {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -18px, 0) scale(1.04);
+  }
+}
+
+@keyframes heading-shine {
+  0% {
+    background-position: -220% center;
+  }
+  100% {
+    background-position: 220% center;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(245, 158, 11, 0);
+  }
+  50% {
+    box-shadow: 0 0 36px rgba(245, 158, 11, 0.36);
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.92);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1.06);
+  }
+}
+
+@keyframes luxe-wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-2deg) translateY(-2px);
+  }
+}
+
+@keyframes border-sweep {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.orb-float {
+  animation: float-orb 8s ease-in-out infinite;
+}
+
+.orb-float-delay {
+  animation: float-orb 10s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.shine-heading {
+  background-image: linear-gradient(
+    110deg,
+    #ffffff 0%,
+    #ffffff 30%,
+    #f59e0b 50%,
+    #ffffff 70%,
+    #ffffff 100%
+  );
+  background-size: 220% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: heading-shine 6.5s linear infinite;
+}
+
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.28) 0.45px, transparent 0.45px);
+  background-size: 3px 3px;
+}
+
+.sparkle-dot {
+  animation: sparkle 3.4s ease-in-out infinite;
+}
+
+.glow-btn {
+  animation: pulse-glow 3.6s ease-in-out infinite;
+}
+
+.funk-chip {
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  background: linear-gradient(120deg, rgba(245, 158, 11, 0.14), rgba(255, 255, 255, 0.02), rgba(245, 158, 11, 0.14));
+  background-size: 200% 200%;
+  animation: border-sweep 4.8s linear infinite;
+}
+
+.luxe-wiggle {
+  animation: luxe-wiggle 3.4s ease-in-out infinite;
+}
